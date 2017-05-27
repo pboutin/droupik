@@ -1,0 +1,30 @@
+{
+  "name": "droupik",
+  "version": "1.0.0",
+  "description": "Discord chatbot for Dofus",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "./node_modules/nodemon/bin/nodemon.js main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pboutin/droupik.git"
+  },
+  "author": "Pascal Boutin <contact@pboutin.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pboutin/droupik/issues"
+  },
+  "homepage": "https://github.com/pboutin/droupik#readme",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "dofus-data": "^2.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
