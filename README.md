@@ -1,2 +1,2 @@
-# allo  droupik
+# allo dlloroupik
 Discord chatbot for Dofus
